@@ -1,0 +1,22 @@
+{
+  "categories": [
+    {
+      "name": "compliance",
+      "owner": "trust-and-safety",
+      "default_severity": "P1",
+      "keywords": [
+        { "phrase": "gdpr", "weight": 5 },
+        { "phrase": "data processing agreement", "weight": 4 },
+        "soc 2"
+      ]
+    }
+  ],
+  "severity_rules": [
+    {
+      "severity": "P1",
+      "sla_hours": 4,
+      "keywords": [{ "phrase": "regulator", "weight": 5 }]
+    }
+  ]
+}
+

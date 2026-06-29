@@ -1,0 +1,5 @@
+{"id":"INC-1001","title":"Checkout outage for all users","body":"Payment failing with 500 errors in production. Customers cannot complete purchases.","labels":["incident","payments"],"customer_tier":"enterprise"}
+{"id":"SEC-204","title":"Possible SQL injection in search endpoint","body":"A researcher reports a vulnerability and shared exploit steps for the public API.","labels":["security"]}
+{"id":"DOC-77","title":"OAuth quickstart example is confusing","body":"The docs show an outdated callback URL and the tutorial does not mention SSO setup."}
+{"id":"FEAT-18","title":"Feature request: export audit logs to CSV","body":"Compliance team would like scheduled exports and support for filtering by workspace."}
+
