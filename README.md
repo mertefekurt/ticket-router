@@ -2,27 +2,26 @@
 
 ![Ticket Router cover](assets/readme-cover.svg)
 
-## What I keep this for
+## Project flow
 
-Local-first support ticket triage CLI for owner, severity, SLA, and confidence routing.
+![Workflow diagram](assets/readme-diagram.svg)
 
-It is a small repo, so the README focuses on the path from clone to first useful output.
-
-## Clone and run
+## Start here
 
 ```bash
 git clone https://github.com/mertefekurt/ticket-router.git
 cd ticket-router
-python -m venv .venv
-source .venv/bin/activate
 python -m pip install -e ".[dev]"
 ticket-router examples/custom-taxonomy.json
 ```
 
-## Checks before changing it
+## Reading notes
 
-```bash
-ruff check .
-pytest
-python -m ticket_router --help
-```
+This project is a small, inspectable operations tool. It prefers concrete examples and local files over hidden setup.
+
+| Detail | Value |
+| --- | --- |
+| Area | operations |
+| Entry | `ticket-router` |
+| Input | JSON document |
+| Output | readable terminal output |
